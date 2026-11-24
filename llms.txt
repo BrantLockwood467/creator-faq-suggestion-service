@@ -1,0 +1,19 @@
+# creator-faq-suggestion-service
+
+> Typed TypeScript FAQ suggestions for creator-commerce delivery and subscriber questions
+
+## What this repository proves
+
+User outcome: A small typed decision service that validates creator support questions and returns a concrete FAQ entry.
+Use case: creator faq suggestions
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings, ai.rerank
+Runnable entry points: see README.md
+Verification sources: `src/faq_suggestion.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

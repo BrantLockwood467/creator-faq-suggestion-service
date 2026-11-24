@@ -1,0 +1,14 @@
+{
+  "name": "creator-faq-suggestion-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.ts",
+    "test": "node --test src/faq_suggestion.test.ts"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.24.1"
+  }
+}
